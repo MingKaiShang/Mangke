@@ -1,0 +1,53 @@
+{
+  "capture": {
+    "targetFps": 60,
+    "targetWidth": 1920,
+    "targetHeight": 1080,
+    "captureMouse": true,
+    "captureAudio": true,
+    "region": {
+      "fullscreen": true,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  },
+  "encoder": {
+    "bitrateKbps": 8000,
+    "codec": "H264",
+    "outputDir": "output"
+  },
+  "zoom": {
+    "enabled": true,
+    "minZoom": 1.0,
+    "maxZoom": 3.0,
+    "currentZoom": 1.5,
+    "smoothingFactor": 0.08,
+    "followSpeed": 0.12,
+    "autoZoom": true,
+    "autoZoomDelayMs": 800
+  },
+  "highlight": {
+    "style": "Circle",
+    "radius": 30.0,
+    "opacity": 0.4,
+    "color": "0xFF0071E3",
+    "showClick": true,
+    "clickRadius": 50.0
+  },
+  "keyboard": {
+    "enabled": true,
+    "opacity": 0.85,
+    "displayDurationMs": 2000,
+    "maxComboKeys": 4,
+    "fontSize": 18.0
+  },
+  "ai": {
+    "contentFollowing": false,
+    "superResolution": false,
+    "denoising": false,
+    "backgroundBlur": false,
+    "clipRecommendation": false
+  }
+}

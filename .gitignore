@@ -1,0 +1,79 @@
+# ── Visual Studio ────────────────────────────────────────────────
+.vs/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.log
+*.tlog
+*.lastbuildstate
+*.pch
+*.ipch
+*.db
+*.opendb
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+*.recipe
+*.idb
+
+# ── Build outputs ────────────────────────────────────────────────
+x64/
+ARM64/
+ARM64EC/
+build/
+out/
+
+# ── Distribution ─────────────────────────────────────────────────
+dist/
+
+# ── NuGet packages ───────────────────────────────────────────────
+packages/
+.nuget/
+
+# ── CMake ────────────────────────────────────────────────────────
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# ── Recordings output ────────────────────────────────────────────
+output/
+
+# ── AI Models (large binary files) ─────────────────────────────
+models/*.onnx
+
+# ── Temporary files ─────────────────────────────────────────────
+*.tmp
+*.temp
+Thumbs.db
+Desktop.ini
+*.bak
+*.swp
+
+# ── Runtime logs / stdout ──────────────────────────────────────
+*.err.txt
+*_out.txt
+stderr.txt
+stdout.txt
+temp_check.txt
+
+# ── Installer artifacts ─────────────────────────────────────────
+unins000.*
+installer/*.exe
+installer/*.msi
+
+# ── Editor / IDE ─────────────────────────────────────────────────
+.idea/
+*.swp
+*.swo
+
+# ── Claude config (personal) ───────────────────────────────────
+.claude/
